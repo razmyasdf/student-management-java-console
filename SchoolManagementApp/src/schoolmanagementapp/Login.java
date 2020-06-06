@@ -102,10 +102,13 @@ public class Login {
                     break;
                 case 4:
                     teacherFuctions.printStudentReport();
+                    break;
                 case 5:
                     teacherFuctions.removeStudent();
+                    break;
                 case 6:
                     this.startApp();
+                    break;
                 
             }
             System.out.println("Press 6 to logout press any other key to continue");
